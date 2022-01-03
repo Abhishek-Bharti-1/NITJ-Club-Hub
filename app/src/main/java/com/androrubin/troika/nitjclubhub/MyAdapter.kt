@@ -9,7 +9,7 @@ import java.util.ArrayList
 
 class MyAdaptor(): RecyclerView.Adapter<MyAdaptor.MyViewHolder>() {
 
-    val grp_names = arrayListOf<String>("GDSC(Google Developer Student Clubs)","MADS(Music and Dramatics Society)", "E-cell(Enterpreneurship Cell)", "Cult Society",
+    val grp_names = arrayListOf<String>("GDSC(Google Developer Student Clubs)","MADS(Music and Dramatics Society)", "E-cell(Entrepreneurship Cell)", "Cult Society",
         "Quest", "LADS(Library and Debating Society)", "Bawre(Dramatics Club)", "Netra(Photography Club)", "R-tist(Robotics Club)", "Rajbhasha Smiti", "Fine Arts Society")
 
 
