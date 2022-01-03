@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "1078977944121",
+    "project_id": "nitj-club-hub-ddg23",
+    "storage_bucket": "nitj-club-hub-ddg23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078977944121:android:898dd04bf9a19e75198be8",
+        "android_client_info": {
+          "package_name": "com.androrubin.nitjclubhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078977944121-j6mu3717nhscti3jseota5lm5c4j9bcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMmtbBGmNNSg1an2u8NK8_BWW3P4OOi_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078977944121-j6mu3717nhscti3jseota5lm5c4j9bcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078977944121:android:43861211b4c92289198be8",
+        "android_client_info": {
+          "package_name": "com.androrubin.troika.nitjclubhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1078977944121-j6mu3717nhscti3jseota5lm5c4j9bcm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMmtbBGmNNSg1an2u8NK8_BWW3P4OOi_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1078977944121-j6mu3717nhscti3jseota5lm5c4j9bcm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

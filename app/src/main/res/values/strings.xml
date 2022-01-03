@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NITJ Club Hub</string>
+    <string name="email">Email</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="textview">Register here</string>
+    <string name="sign_in">Login</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="login_here">Login here</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="registration">Registration</string>
+    <string name="you_are_successfully_logged_in">You are successfully logged in</string>
+    <string name="logout">Logout</string>
+</resources>
