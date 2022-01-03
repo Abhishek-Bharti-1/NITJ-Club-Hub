@@ -1,5 +1,6 @@
 package com.androrubin.troika.nitjclubhub
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -12,7 +13,10 @@ class CreatePost : AppCompatActivity() {
 
         val submit = findViewById<Button>(R.id.submit)
         submit?.setOnClickListener {
-            Toast.makeText(this,"Abhi nhi chal raha hai", Toast.LENGTH_SHORT).show()
+            val intent = Intent(this,MainActivity::class.java)
+            Toast.makeText(this,"Post Added",Toast.LENGTH_SHORT).show()
+            startActivity(intent)
+            finish()
         }
     }
 }

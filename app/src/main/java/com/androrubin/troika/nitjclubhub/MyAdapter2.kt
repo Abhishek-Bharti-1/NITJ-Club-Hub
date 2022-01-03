@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class MyAdaptor2(): RecyclerView.Adapter<MyAdaptor2.MyViewHolder>() {
+class MyAdaptor2(private val eventList:ArrayList<Events>): RecyclerView.Adapter<MyAdaptor2.MyViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
         val inflater = LayoutInflater.from(parent.context)
@@ -16,12 +16,14 @@ class MyAdaptor2(): RecyclerView.Adapter<MyAdaptor2.MyViewHolder>() {
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        holder.title2.text = "Event"
-        holder.message.text="events abhi chalenge bfgcvc hgfgcv hfgcxddgfg hgfgdbvghf hghdfchjghgffg kjhjgvvghfghfgdgghghj hjghfgjkhfjhfgwhfghsmfjkwfhgwff ngfhhjfgjfhjkhfejghlslgjklfjuifgjkfhkl jfheghgsjfhksjfjsgfjkshfjksfhkjkfhflkjhfjfjkhfhajlfhukyfgjfhff "
+
+        val event : Events = eventList[position]
+        holder.title2.text = event.title
+        holder.message.text= event.description
     }
 
     override fun getItemCount(): Int {
-        val size = 10
+        val size = eventList.size
         return size
     }
 
