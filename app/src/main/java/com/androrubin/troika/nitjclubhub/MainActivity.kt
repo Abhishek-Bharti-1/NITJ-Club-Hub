@@ -14,8 +14,8 @@ class MainActivity : AppCompatActivity() {
 
         val hide = supportActionBar?.hide()
 
-        val grp_names = arrayListOf<String>("GDSC(Google Developers Students Clubs)","MADS(Music and Dramatics society)", "E-cell(Enterpreneurship cell)", "Cult Society",
-            "Quest", "LADS(library and debating society)", "Bawre(Dramatics club)", "Netra(Photography club)", "R-tist(Robotics Club)", "Rajbhasha Smiti", "Fine arts society")
+        val grp_names = arrayListOf<String>("GDSC(Google Developer Student Clubs)","MADS(Music and Dramatics Society)", "E-cell(Enterpreneurship Cell)", "Cult Society",
+            "Quest", "LADS(Library and Debating Society)", "Bawre(Dramatics Club)", "Netra(Photography Club)", "R-tist(Robotics Club)", "Rajbhasha Smiti", "Fine Arts Society")
 
         val profile = findViewById<ImageButton>(R.id.profile)
         profile?.setOnClickListener()
