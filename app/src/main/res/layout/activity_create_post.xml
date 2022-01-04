@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/off_white"
+    android:background="@drawable/applogin"
     tools:context=".CreatePost">
 
     <TextView
@@ -14,7 +14,7 @@
         android:layout_marginStart="72dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="156dp"
-        android:background="@color/brown"
+        android:background="@color/red"
         android:gravity="center"
         android:padding="7dp"
         android:text="Message Description"
@@ -47,9 +47,9 @@
         android:id="@+id/textView8"
         android:layout_width="78dp"
         android:layout_height="40dp"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="168dp"
         android:layout_marginEnd="256dp"
-        android:background="@color/brown"
+        android:background="@color/red"
         android:gravity="center"
         android:padding="7dp"
         android:text="Title"
@@ -83,9 +83,9 @@
         android:text="Submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.759" />
+        app:layout_constraintVertical_bias="0.957" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

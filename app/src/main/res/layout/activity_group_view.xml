@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="top"
-    android:background="@color/off_white"
+    android:background="@color/gray"
     tools:context=".GroupView">
 
     <TextView
         android:id="@+id/page_name"
         android:layout_width="0dp"
         android:layout_height="56dp"
-        android:background="@color/brown"
+        android:background="@color/gray"
         android:gravity="center|left"
         android:paddingStart="7dp"
         android:text="TextView"
@@ -38,7 +38,7 @@
         android:id="@+id/post"
         android:layout_width="75dp"
         android:layout_height="56dp"
-        android:background="@color/brown"
+        android:background="@color/gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"

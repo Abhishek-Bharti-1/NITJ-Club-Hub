@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
+import android.widget.ImageButton
 import android.widget.Toast
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -37,7 +38,7 @@ class LoginActivity : AppCompatActivity() {
         //Firebase auth instance
         mAuth = FirebaseAuth.getInstance()
 
-        val login = findViewById<Button>(R.id.button2)
+        val login = findViewById<ImageButton>(R.id.button2)
         login?.setOnClickListener(){
            signIn()
         }

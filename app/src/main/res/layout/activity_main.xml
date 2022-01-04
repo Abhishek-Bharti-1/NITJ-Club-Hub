@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/off_white"
+    android:background="@color/gray"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/Page_Name"
         android:layout_width="0dp"
         android:layout_height="55dp"
-        android:background="@color/brown"
+        android:background="@color/gray"
         android:gravity="center|left"
         android:paddingStart="7dp"
         android:text="NITJ Clubs"
@@ -40,7 +40,7 @@
         android:id="@+id/profile"
         android:layout_width="65dp"
         android:layout_height="55dp"
-        android:background="@color/brown"
+        android:background="@color/gray"
         app:layout_constraintEnd_toStartOf="@+id/Page_Name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"

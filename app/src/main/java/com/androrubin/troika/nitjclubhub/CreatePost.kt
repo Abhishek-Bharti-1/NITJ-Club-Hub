@@ -41,10 +41,10 @@ class CreatePost : AppCompatActivity() {
                 .addOnFailureListener { e ->
                     Log.w("Data Addition", "Error adding document", e)
                 }
-            val intent = Intent(this,MainActivity::class.java)
+            val intent = Intent(this,GroupView::class.java)
             Toast.makeText(this,"Post Added",Toast.LENGTH_SHORT).show()
             startActivity(intent)
-            finish()
+           finishAffinity()
         }
     }
 }
