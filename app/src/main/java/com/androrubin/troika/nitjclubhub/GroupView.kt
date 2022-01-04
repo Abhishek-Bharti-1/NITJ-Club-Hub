@@ -46,6 +46,7 @@ class GroupView : AppCompatActivity() {
         post?.setOnClickListener {
 
             val intent2 = Intent(this,CreatePost::class.java)
+            intent2.putExtra("collection_name",name)
             startActivity(intent2)
         }
 
