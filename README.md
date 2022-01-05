@@ -45,7 +45,7 @@ Here we are with a platform solely for handling club activites with the followin
 ## App Access :
   ## 🔗 Links
   *  ( https://github.com/Abhishek-Bharti-1/NITJ-Club-Hub) (github repo link)
-  * https://drive.google.com/folderview?id=1CsvHBwRI9k0b0ATJfjzzH3O1V9XHfUsM(apk link)
+  * https://drive.google.com/folderview?id=1CsvHBwRI9k0b0ATJfjzzH3O1V9XHfUsM (apk link)
   
 ## Functationality and Concepts used:
  The app has very simple and user friendly interfacewhich will help the students to get all the updates and the club leads to create and deliver event announcements.
