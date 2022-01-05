@@ -55,7 +55,8 @@ class GroupView : AppCompatActivity() {
     private fun EventChangeListener(page_name:String?=null) {
 
         db= FirebaseFirestore.getInstance()
-        db.collection("$page_name").addSnapshotListener(object : EventListener<QuerySnapshot>{
+        db.collection("$page_name").orderBy("date",Query.Direction.DESCENDING)
+            .addSnapshotListener(object : EventListener<QuerySnapshot>{
             override fun onEvent(value: QuerySnapshot?, error: FirebaseFirestoreException?) {
 
                 if(error!=null)

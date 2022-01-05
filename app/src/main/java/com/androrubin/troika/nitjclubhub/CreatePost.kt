@@ -34,7 +34,6 @@ class CreatePost : AppCompatActivity() {
 
 //            Toast.makeText(this,title.getText().toString(),Toast.LENGTH_SHORT).show()
             if(TextUtils.isEmpty(title.getText().trim().toString())) {
-
                 title.setError("Title cannot be empty")
                 title.requestFocus()
             }else if (TextUtils.isEmpty(des.getText().trim().toString())){
