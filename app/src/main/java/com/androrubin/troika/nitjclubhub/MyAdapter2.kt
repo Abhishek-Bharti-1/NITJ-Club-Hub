@@ -20,6 +20,7 @@ class MyAdaptor2(private val eventList:ArrayList<Events>): RecyclerView.Adapter<
         val event : Events = eventList[position]
         holder.title2.text = event.title
         holder.message.text= event.description
+        holder.timestamp.text = event.date?.toDate().toString()
     }
 
     override fun getItemCount(): Int {
@@ -30,6 +31,7 @@ class MyAdaptor2(private val eventList:ArrayList<Events>): RecyclerView.Adapter<
     class MyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
         val message = itemView.findViewById<TextView>(R.id.message)
         val title2= itemView.findViewById<TextView>(R.id.title2)
+        val timestamp = itemView.findViewById<TextView>(R.id.timestamp)
     }
 
 }

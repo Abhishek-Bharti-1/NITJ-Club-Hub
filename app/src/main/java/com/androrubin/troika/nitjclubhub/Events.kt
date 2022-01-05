@@ -1,3 +1,6 @@
 package com.androrubin.troika.nitjclubhub
 
-data class Events(var title : String?=null , var description: String?=null)
+import com.google.firebase.Timestamp
+
+data class Events(var title : String?=null , var description: String?=null, var date: Timestamp?=null)
+//

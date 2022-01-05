@@ -29,7 +29,7 @@
     <EditText
         android:id="@+id/descrition_mes"
         android:layout_width="270dp"
-        android:layout_height="141dp"
+        android:layout_height="80dp"
         android:background="@color/white"
         android:ems="10"
         android:gravity="start|top"
@@ -38,16 +38,16 @@
         android:padding="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.071" />
+        app:layout_constraintVertical_bias="0.05" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="78dp"
         android:layout_height="40dp"
-        android:layout_marginTop="168dp"
+        android:layout_marginTop="40dp"
         android:layout_marginEnd="256dp"
         android:background="@color/red"
         android:gravity="center"
@@ -83,9 +83,9 @@
         android:text="Submit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.957" />
+        app:layout_constraintVertical_bias="0.932" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

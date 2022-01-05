@@ -4,7 +4,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import android.widget.Button
 import android.widget.ImageButton
 import android.widget.Toast
 import com.google.android.gms.auth.api.signin.GoogleSignIn
@@ -92,9 +91,8 @@ class LoginActivity : AppCompatActivity() {
                         finish()
 
                     }else{
-                        Toast.makeText(this,"Kindly login using official Email-id",Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this,"Kindly login using official Email-id after reinstalling",Toast.LENGTH_SHORT).show()
                         mAuth.signOut()
-
                     }
 
                 } else {
@@ -103,6 +101,4 @@ class LoginActivity : AppCompatActivity() {
                 }
             }
     }
-
-
 }

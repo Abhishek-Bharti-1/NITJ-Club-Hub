@@ -7,7 +7,10 @@ import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
+import com.google.firebase.firestore.FieldValue
 import com.google.firebase.firestore.FirebaseFirestore
+import java.sql.Date
+import java.sql.Timestamp
 
 class CreatePost : AppCompatActivity() {
 
@@ -30,7 +33,8 @@ class CreatePost : AppCompatActivity() {
 //            Toast.makeText(this,title.getText().toString(),Toast.LENGTH_SHORT).show()
             val data = hashMapOf(
                 "title" to title.getText().toString(),
-                "description" to des.getText().toString()
+                "description" to des.getText().toString(),
+                "date" to FieldValue.serverTimestamp()
             )
 
             db.collection("$name")
@@ -41,7 +45,7 @@ class CreatePost : AppCompatActivity() {
                 .addOnFailureListener { e ->
                     Log.w("Data Addition", "Error adding document", e)
                 }
-            val intent = Intent(this,GroupView::class.java)
+            val intent = Intent(this,MainActivity::class.java)
             Toast.makeText(this,"Post Added",Toast.LENGTH_SHORT).show()
             startActivity(intent)
            finishAffinity()
