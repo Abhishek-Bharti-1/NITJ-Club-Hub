@@ -44,6 +44,7 @@ class LoginActivity : AppCompatActivity() {
     }
     private fun signIn() {
         val signInIntent = googleSignInClient.signInIntent
+        googleSignInClient.signOut()
         startActivityForResult(signInIntent, RC_SIGN_IN)
     }
 
@@ -91,7 +92,7 @@ class LoginActivity : AppCompatActivity() {
                         finish()
 
                     }else{
-                        Toast.makeText(this,"Kindly login using official Email-id after reinstalling",Toast.LENGTH_SHORT).show()
+                        Toast.makeText(this,"Kindly login using official Email-id",Toast.LENGTH_SHORT).show()
                         mAuth.signOut()
                     }
 
